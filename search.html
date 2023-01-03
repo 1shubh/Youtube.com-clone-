@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div id="navbar">
+        <div id="img">
+            <i class="fa-solid fa-bars"></i>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/YouTube_dark_logo_2017.svg/1280px-YouTube_dark_logo_2017.svg.png" alt="yt logo">
+        </div>
+        <div id="searchbar">
+            <input id="query" type="text" placeholder="Search video"> <button id="btn" onClick="searchVideos()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <DIV id="mic"> <i class="fa-solid fa-microphone"></i></DIV>
+        </div>
+        <div id="user">
+            <i class="fa-solid fa-upload"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <p class="filter"><i class="fa-solid fa-sliders"></i>  FILTERS</p>
+    <div id="filter" class="popup">
+        <p id="cross"><i class="fa-solid fa-x"></i></p>
+        <div id="filterspos">
+        <div id="upload">
+            <p id="heading">Upload Date</p>
+            <p>Today</p>
+            <p>This week</p>
+            <p>This Month</p>
+            <p>This Year</p>
+        </div>
+        <div id="type">
+            <p id="heading">Type</p>
+            <p>Video</p>
+            <p>Channel</p>
+            <p>Playlist</p>
+            <p>Movie</p>
+        </div>
+        <div id="duration">
+            <p id="heading">Duration</p>
+            <p>Under 4 Minute</p>
+            <p>4-20 Minute</p>
+            <p>Over 20 Minute</p>
+        </div>
+    </div>
+</div>
+    <div id="searchcontainer">
+        
+    </div>
+</body>
+</html>
+<script src="search.js"></script>
